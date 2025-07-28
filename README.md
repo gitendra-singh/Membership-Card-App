@@ -1,16 +1,28 @@
-# membership_card_app
+# 🪪 Membership Card App
 
-A new Flutter project.
+A Flutter app that displays a **digital membership card** with a dynamically refreshing **QR code**. The QR code data updates using a user-specific ID combined with a timestamp, making each code **unique and time-sensitive** for enhanced security.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🎴 Digital membership card UI with:
+  - Profile picture
+  - Membership status
+  - Card information
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🔄 QR code display that updates on button press
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 🧠 State management using **Provider**
+
+- 🔐 Unique QR code generation:
+  - Combines a **fixed user ID** with the current **timestamp**
+
+- 📱 Responsive UI:
+  - Overflow-safe text
+  - Scrollable content for smaller devices
+
+---
+
+## 📸 Screenshots
+<img src="images/Membership card gif.gif" width="300" />
